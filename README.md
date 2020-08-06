@@ -40,7 +40,7 @@ The reason I choose tailwind is building design quickly. I don't mind to reinven
 
 ### For next versions
 I can add some other features like lightboxin images. Maybe blur option could be add to filter as same as grayscaling.
-
+The most important thing for the next release is prefetching images. I created a directive about that for the future implementations. Within new release, images can have some lazy load feature.
 ### Before Production Deployment
 process.env.NODE_ENV variable needs to be production to run purgecss. Otherwise, there will be unused tailwind classes on the project. It may cause a performance issue to use pure tailwind css without purgecss.
 I totally, prefer to integrate it with some of error handling service for production builds. (I always prefer Sentry.)
