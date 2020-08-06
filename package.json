@@ -1,23 +1,29 @@
 {
-  "name": "runecast",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
-    "@vue/cli-service": "^4.4.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+	"name": "Runecast Assignment #1",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build"
+	},
+	"dependencies": {
+		"axios": "^0.19.2",
+		"tailwindcss": "^1.6.2",
+		"vue": "^2.6.11",
+		"vue-content-loader": "^0.2.3",
+		"vue-lazyload": "^1.3.3",
+		"vue-wait": "^1.4.8",
+		"vuex": "^3.5.1"
+	},
+	"devDependencies": {
+		"@vue/cli-service": "^4.4.0",
+		"node-sass": "^4.12.0",
+		"sass-loader": "^8.0.2",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
 }
